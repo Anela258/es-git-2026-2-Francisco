@@ -1,1 +1,1 @@
-Mensagem: versão inicial.
+Mensagem: alteração de A e B integradas.
