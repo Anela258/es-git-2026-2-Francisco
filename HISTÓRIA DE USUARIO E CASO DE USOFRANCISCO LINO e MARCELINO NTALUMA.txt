@@ -1,0 +1,53 @@
+FRANCISCO LINO e MARCELINO NTALUMA
+
+HISTÓRIA DE USUÁRIO: 01
+
+1. Identificar pelos menos dois usário
+R: Monitores e Estudantes Universitários
+
+2. Como Estudante Universitário, eu gostaria de achar monitores
+da disciplina de calculo 1 para que eu possa ter acesso a 
+manitoria.
+
+3. 1. Dado que o Estudante esteja matriculado na disciplina de calculo 1.
+   2. Quando acessar a pagina na área de Monitores de calculo 1.
+   3. Então o sistema deverá apresentar os nomes e
+      horários de atendimento dos monitores disponíveis.
+
+
+
+HISTÓRIA DE USUÁRIO: 02
+
+1. Identificar pelos menos dois usário
+R: Monitores e Estudantes Universitários.
+
+2. Como Monitor, gostaria de ver o total de Estudantes matriculados
+ na disciplina de cálculo 1.
+
+3. 1. Dado que o  monitor esteja cadastrado na disciplina de Cálculo 1
+E existam estudantes matriculados.
+   2. Quando o monitor acessar a turma de cálculo 1.
+   3. Então o sistema deve mostrar o total de estudante, contacto e email.
+
+
+
+CASO DE USO
+
+Consultar estudantes matriculados em Cálculo 1
+
+Ator: Monitor
+
+Fluxo Normal:
+1. Monitor acessa o sistema.
+2. Monitor seleciona a disciplina de Cálculo 1.
+3. Sistema verifica os estudantes matriculados na disciplina.
+4. Sistema apresenta o total de estudantes matriculados.
+5. Sistema apresenta a lista de estudantes com seus contatos e emails.
+
+
+Extensões
+1. Monitor não está cadastrado em Cálculo 1.
+2. Não existem estudantes matriculados.
+3. Monitor informa uma disciplina inexistente.
+4. Não foi possível carregar os dados dos estudantes.
+5. Estudante não possui contato ou e-mail cadastrado.
